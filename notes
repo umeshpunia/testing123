@@ -1,0 +1,84 @@
+JS ->
+    It is an object based client side scripting lang.
+    It is an interprator lang.
+    It is case sensitive lang.
+    It has errors
+    It is dynamic/loosely type lang.
+    Extension of js .js
+
+    Types ->
+        1. Internal
+            <script></script>
+        2. External
+            <script src=""></script>
+
+    Browser 
+        Js Executer
+            1. v8 engine - chrome/edge/brave
+            2. mozilla - spider monkey
+            3. I.E -> chakra
+
+    How To Print In Js ->
+        document.write()
+
+    
+    Data Types ->
+
+        1. Boolean -> true(1) or false(0)
+        2. Number -> 5 or 6.6
+        3. String -> "" or ''
+        4. null
+        5. array -> []
+        6. object -> {}
+        7. undefined
+        8. NaN -> Not A Number (5*"jk")
+
+
+
+    Variables ->
+
+        How To Create Variables ->
+            var variablename=value
+
+            Rules 
+                1. no space
+                2. no Number
+                3. no symbols (exception _ or $)
+
+    Concatination ->
+    Joining
+    +
+
+    Arthematic Op ->
+        +,-,*,/, % (modulas (remainder)), **(exponential)
+
+    Comparison Op ->
+        >,<,>=,<=
+
+        == (compare value) Equal to
+        === (compare data type and value) identical
+
+        != not Equal
+
+        !== Not identical
+
+    Logical Op. ->
+        AND -- && if all true result true
+        OR -- || if one true result true
+        NOT -- ! opposite
+
+
+
+
+    Inc / Dec
+        Post Increment (Next Line + 1)
+        a++ => a+1
+
+        Pre (same line)
+        ++a
+
+    
+
+
+
+
