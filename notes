@@ -160,9 +160,67 @@ Loops ->
 
 
 
+Functions ->
+    Block Of Code
+    Types ->
+        1. Inbuilt
+        2. User Defined
+
+        Types ->
+            Normal Function
+            Parameterized/Arguments/Attributtes
 
 
 
+
+        How To Create A Function ->
+            function fnname(){
+                code
+            }
+
+        Rules Of Function Name ->
+            1. No Space
+            2. No Number
+            3. No Symbols
+            4. camelCase
+
+
+
+
+
+Arrays(List) ->
+    Collection of Multiple values in a Variable
+
+    []
+
+    Types ->
+        1. Index Array
+            Those Array whose items position is given by lang. and it always starts from 0 to length - 1 of array
+      
+            Example ->
+                [value1,value2,.....]
+
+
+
+        2. Associative Array (Not Supported)
+
+
+    Object(Dictionary) ->
+
+            Collection of Multiple values in a Variable
+            in a key value pair
+
+            {}
+
+            Example ->
+                {
+                    key1:value1,
+                    key2:value2,
+                    .
+                    .
+                    .
+                    .
+                }
 
 
 
