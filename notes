@@ -78,6 +78,95 @@ JS ->
         ++a
 
     
+    Conditions ->
+
+
+        Single Conditions
+        1. if
+
+            Syntax ->
+                if(Comparison){
+                    statement
+                }
+
+        2. if else
+
+
+            Syntax ->
+                if(Comparison){
+                    statement1
+                }else{
+                    statement2
+                }
+
+
+        Multiple
+
+        3. if else if
+            Syntax ->
+
+            if(Comparison1){
+                statement1
+            }else if(Comparison2){
+                statement2
+            }
+            .
+            .
+            else{
+                statement
+            }
+        
+        4. switch
+
+            Syntax ->
+            switch(expression){
+                case Comparison1:
+                statement1;
+                break;
+                case Comparison2:
+                statement2
+                break;
+
+                .
+                .
+                .
+                default:
+                statement
+            }
+
+
+1. compare 4 numbers
+
+
+Loops ->
+    1. for
+
+        Syntax ->
+            for(init;Comparison;Inc/dec){
+                statement
+            }
+
+    2. while
+
+        init
+        while(Comparison){
+            statement
+            inc/dec
+        }
+
+
+    3. do while
+
+
+
+
+
+
+
+
+
+
+
 
 
 
