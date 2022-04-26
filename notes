@@ -222,6 +222,45 @@ Arrays(List) ->
                     .
                 }
 
+    String Methods ->
+        1. length
+        2. toUpperCase()
+        3. toLowerCase()
+        4. substr()
+        5. substring()
+        6. slice()
+        7. search()
+        8. indexOf()
+        9. lastIndexOf()
+        10. split() -> convert string into array
+        11. replace()
+        12. charAt()
+        13. charCodeAt()
+
+
+    Number Methods ->
+        1. parseInt()
+        2. parseFloat()
+
+
+    Math Methods ->
+        1. round()
+        2. ceil()
+        3. floor()
+        4. abs()
+        5. random()
+        
+        Tasks
+        1. words count
+        2. name in pattern
+        3. otp
+        4. random string
+
+
+
+
+
+
 
 
 
