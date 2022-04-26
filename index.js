@@ -190,6 +190,64 @@
 // API
 
 
+// a=[1,23,330]
+
+// b=0
+
+// for(i=0;i<3;i++){
+//     b=b+a[i]
+//     // b+=a[i]
+// }
+
+// document.write(b)
+
+
+// b="fkjds kj fsd jkfkj"
+
+// document.write(b.slice(10,12))
+
+// document.write(b.lastIndexOf("kj",5))
+
+// a="hello how are you";
+
+// document.write(a.charCodeAt(0))
+
+
+// document.write(a.replace("h","H"))
+// b=a.split(".")
+
+// ext=b[b.length-1]
+
+// if(ext=="png" || ext=="jpg"){
+//     document.write('Image')
+// }else{
+//     document.write("Not Image")
+// }
+
+
+
+// a=parseFloat("6")
+// b=parseFloat("4")
+
+// document.write(a+b)
+
+
+// a=Math.floor(4.1)
+
+// 0-49 - same
+// 50-99 - next
+// document.write(a)
+
+
+
+// pagination
+
+
+
+// data=26
+// pp=5
+
+// document.write(data/pp)
 
 
 
@@ -197,18 +255,10 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
+// a=Math.random()
+// 6 digits
+// 0-1
+// document.write(a)
 
 
 
