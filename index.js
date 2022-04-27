@@ -252,13 +252,81 @@
 
 
 
-
-
-
 // a=Math.random()
 // 6 digits
 // 0-1
 // document.write(a)
+// a="hello! how you ram"
+// b=a.split(" ").length
+// document.write(b)
+
+
+
+
+// a="umesh"
+
+
+// b=a.length;
+
+// for(i=0;i<b;i++){
+//     for(j=0;j<=i;j++){
+//         document.write(a.charAt(j))
+//     }
+//     document.write("<br>")
+// }
+
+
+// function randomString(l=6){
+//     var a="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
+//     var len=a.length;
+
+//     var x=""
+//     for(i=1;i<=l;i++){
+//         var r=Math.floor(Math.random()*len);
+//         x=x+a.charAt(r)
+        
+//     }
+//     return x
+    
+
+
+// }
+
+// document.write(randomString(10))
+
+
+
+
+
+a=[10,2,3,4]
+b=[56,6,99,9,5]
+// a.push("hello")
+// a.pop()
+
+// a.shift()
+// a.unshift("kdlflksdklf")
+
+
+// delete a[2]
+
+
+// a.splice(2,2,"abc","def") 
+// single arg then it starts deleting from that pos.
+
+
+c=a.concat(b)
+
+console.log(c.join("*"))
+
+
+
+
+
+
+
+
+
+
 
 
 
