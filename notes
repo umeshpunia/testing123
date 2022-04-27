@@ -258,6 +258,47 @@ Arrays(List) ->
 
 
 
+Array Methods ->
+    1. length
+
+    LIFO -> Last In First Out
+    2. push()
+    3. pop()
+
+    FIFO -> First In First Out
+    4. shift()
+    5. unshift()
+
+    6. delete
+    7. splice()
+
+    8. concat()
+    9. toString()
+
+    10. join()
+
+
+
+BOM
+DOM
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
