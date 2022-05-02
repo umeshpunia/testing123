@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <input type="text" id="email" />
+
+    <button onclick="getVal()">Click</button>
+
+    <script>
+      function getVal() {
+        var a = document.getElementById("email");
+        var b=a.value
+        if(b.length==0){
+            alert('please enter value')
+            a.style.outlineColor="red"
+        }else{
+
+            a.style.outlineColor="green"
+            alert("value "+a)
+        }
+
+      }
+    </script>
+  </body>
+</html>

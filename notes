@@ -280,9 +280,55 @@ Array Methods ->
 
 
 BOM
-DOM
+    Browser/Box Object Models
+
+    Types ->
+        1. alert
+        2. confirm
+        3. prompt
+
+DOM ->
+    document object model
+    we can access any tag or any tags Attributtes change or delete or add
 
 
+    Selectors
+        1. id
+        2. classname
+        3. tagname
+
+    Events
+        click
+
+
+    Storage ->
+        1. Client Side
+            1. Cookies
+                Client Side Storage
+                Use To Store Info
+                time limited
+                4kb
+
+
+            2. localStorage            
+                Client Side Storage
+                Use To Store Info
+                no time limit
+                key and value pair
+                5mb
+
+                insert/update
+
+                localStorage.setItem(key,value)
+
+                read
+                localStorage.getItem(key)
+
+                delete
+                localStorage.removeItem(key)
+
+
+        2. Physical - DB
 
 
 

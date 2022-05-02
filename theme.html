@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" id="link" href="">
+</head>
+<body onload="checkTheme()">
+
+
+    <button class="btn btn-danger" onclick="changeTheme()">Change Theme</button>
+    
+
+    <script>
+
+        var lightCss="https://bootswatch.com/5/quartz/bootstrap.min.css"
+        var darkCss="https://bootswatch.com/5/darkly/bootstrap.min.css"
+
+
+
+        function changeTheme(){
+            var link=document.getElementById('link')
+            var theme=localStorage.getItem('theme')
+            
+            if(theme=="dark"){
+
+                link.href=lightCss
+                localStorage.setItem('theme','light')
+            }else{
+                link.href=darkCss
+                localStorage.setItem('theme','dark')
+ 
+            }
+
+        }
+
+        function checkTheme(){
+            var link=document.getElementById('link')
+            var theme=localStorage.getItem('theme')
+            
+            if(theme=="dark"){
+
+                link.href=darkCss
+            }else{
+                link.href=lightCss
+            }
+
+        }
+    </script>
+
+
+</body>
+</html>

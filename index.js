@@ -298,8 +298,8 @@
 
 
 
-a=[10,2,3,4]
-b=[56,6,99,9,5]
+// a=[10,2,3,4]
+// b=[56,6,99,9,5]
 // a.push("hello")
 // a.pop()
 
@@ -314,13 +314,19 @@ b=[56,6,99,9,5]
 // single arg then it starts deleting from that pos.
 
 
-c=a.concat(b)
+// c=a.concat(b)
 
-console.log(c.join("*"))
-
-
+// console.log(c.join("*"))
 
 
+
+// a="fd                       f"
+
+// a=prompt("Val1")
+// b=prompt("Val2")
+// c=prompt("Op")
+
+// document.write(a)
 
 
 
