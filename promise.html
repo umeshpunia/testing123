@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+    <script>
+       
+
+    // creation of promise
+       var a=new Promise(function(res,rej){
+            if(6==="6"){
+                res('Equal')
+            }else{
+                rej('not equal')
+            }
+
+       })
+
+
+    //    handle of promise
+
+       a.then(function(data){
+        console.log('resolved',data)
+       }).catch(function(err){
+        console.log('reject',err)
+       })
+
+
+
+        console.log('umesh')
+    </script>
+    
+</body>
+</html>

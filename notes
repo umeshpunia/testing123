@@ -332,6 +332,47 @@ DOM ->
 
 
 
+Synchronous
+Asynchronous
+
+Promise ->
+    To Handle Asynchronous Op.
+
+    Stages ->
+        1. pending
+        2. fullfilled
+        3. fail
+
+
+
+    then -> when Promise resolve
+    catch -> when Promise reject
+
+
+
+API
+JSON
+
+Methods
+    GET -> Recieve from server
+    POST -> Sending
+    PUT/PATCH -> Update
+    DELETE -> Delete
+
+
+Status Code
+
+
+404
+
+
+
+
+Call back functions ->
+ to call function into another function Parameters
+
+
+ anonymous
 
 
 
