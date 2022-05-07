@@ -384,6 +384,14 @@ Call back functions ->
 
 
 
+Timer Functions ->
+    1. setInterval -> call again and again
+    2. setTimeout -> call once
+
+
+Date Methods ->
+
+
 
 
 
