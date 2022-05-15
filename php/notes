@@ -1,0 +1,13 @@
+Super Global Variables ->
+
+    Form Handling
+    1. $_GET
+    2. $_POST
+    3. $_FILES
+
+
+    4. $_SERVER
+    
+    Sending Data
+    5. $_SESSION
+    6. $_COOKIES
