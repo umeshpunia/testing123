@@ -45,8 +45,13 @@
 
 // echo $a["name"]["z"][0];
 
-echo "<pre>";
-print_r($_SERVER);
+// echo "<pre>";
+// print_r($_SERVER);
+// session_start();
+// echo $_SESSION['name']
+
+echo "Hello From Index";
+// $z="Hello From Index";
 
 
 

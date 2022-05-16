@@ -11,3 +11,22 @@ Super Global Variables ->
     Sending Data
     5. $_SESSION
     6. $_COOKIES
+    Query String
+
+
+    header()
+
+    important
+        include()
+        require()
+        require_once()
+        include_once()
+
+
+        implode()
+        explode()
+
+        encryption
+        file upload
+
+
